@@ -1,8 +1,17 @@
 :root {
-    /* -- Fonts --*/
-  --font-family: "Mulish", sans-serif; // var(--font-family);
+  /* -- Fonts --*/
+  --font-family-futura: "FuturaNew", sans-serif; // var(--font-family-futura);
 
-
+  /* -- Colors --*/
+  --light-green: #BDDEDA; // var(--light-green);
+  --green: #64B6AC; // var(--green);
+  --white: #FFFFFF; // var(--white);
+  --black: #143127; // var(--black);
+  --bg: #F8F8F8; // var(--bg);
+  --extra-light-green: #CCEFC4; // var(--extra-light-green);
+  --pink: #CCEFC4; // var(--pink);
+  --yellow: #FDC300; // var(--yellow);
+  --gray: #626F6A; // var(--gray);
 }
 
 

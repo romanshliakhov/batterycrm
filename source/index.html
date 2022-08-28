@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-<html lang="En">
+<html lang="Ru">
 @include('partials/head.html',{})
 
 <body>
-  @include('partials/header.html',{})
+  <div class="wrapper">
+    @include('partials/header.html',{})
 
-  <main>
-    <p>Test</p>
-  </main>
+    <main class="main">
+      <section class="navigation">
+        <div class="container">
+          <div class="navigation__wrapper">
+            <ul class="navigation__controls">
+              <li class="navigation__controls-item">
+                <div class="navigation__controls-btn">
+                  <svg width='19' height='19'>
+                    <use href='img/sprite/sprite.svg#bag'></use>
+                  </svg>
+                  <span>Заказы</span>
+                </div>
+              </li>
+              <li class="navigation__controls-item">
+                <div class="navigation__controls-btn">
+                  <svg width='19' height='19'>
+                    <use href='img/sprite/sprite.svg#clients'></use>
+                  </svg>
+                  <span>Клиенты</span>
+                </div>
+              </li>
+              <li class="navigation__controls-item">
+                <div class="navigation__controls-btn active">
+                  <svg width='19' height='19'>
+                    <use href='img/sprite/sprite.svg#shop'></use>
+                  </svg>
+                  <span>Товары</span>
+                </div>
+              </li>
+              <li class="navigation__controls-item">
+                <div class="navigation__controls-btn">
+                  <svg width='19' height='19'>
+                    <use href='img/sprite/sprite.svg#wallet'></use>
+                  </svg>
+                  <span>Финансы</span>
+                </div>
+              </li>
+              <li class="navigation__controls-item">
+                <div class="navigation__controls-btn">
+                  <svg width='19' height='19'>
+                    <use href='img/sprite/sprite.svg#tag'></use>
+                  </svg>
+                  <span>Соответствия товаров</span>
+                </div>
+              </li>
+              <li class="navigation__controls-item">
+                <div class="navigation__controls-btn">
+                  <svg width='19' height='19'>
+                    <use href='img/sprite/sprite.svg#activity'></use>
+                  </svg>
+                  <span>Аналитика</span>
+                </div>
+              </li>
+            </ul>
+            <div class="navigation__information-wrapp">
+              <div class="navigation__information">
+                Поиск
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  @include('partials/footer.html',{})
+      <section class="">
+        <div class="container">
 
+        </div>
+      </section>
+    </main>
+
+    @include('partials/footer.html',{})
+  </div>
 
   <script type="text/javascript" src="js/main.js"></script>
 </body>

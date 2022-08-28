@@ -1,3 +1,51 @@
 header {
+  padding: 10px 24px;
+  background-color: var(--green);
+}
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    grid-gap: 4.85px;
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+  }
+
+  &__btn {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: 0.3s ease;
+
+    svg {
+      stroke: var(--green);
+      transition: 0.3s ease;
+    }
+
+    &:hover,
+    &:active {
+      svg {
+        stroke: var(--yellow);
+      }
+    }
+  }
 }
