@@ -1,7 +1,5 @@
 // Select
-let headerLang = document.querySelectorAll('.header__lang');
-let filter = document.querySelectorAll('.filter');
-const breakpoint = 576;
+let selects = document.querySelectorAll('.select');
 
 let selectScript = function (select) {
     select.forEach((item) => {
@@ -22,20 +20,11 @@ let selectScript = function (select) {
     });
 }
 
-selectScript(headerLang);
-
-const mobileSelectInit = () => {
-    let containerWidth = document.documentElement.clientWidth;
-
-    if (containerWidth <= breakpoint) {
-        selectScript(filter);
-    }
-};
+selectScript(selects);
 
 window.addEventListener("DOMContentLoaded", () => {
-    mobileSelectInit();
 });
 
 window.addEventListener("resize", () => {
-    mobileSelectInit();
+
 });

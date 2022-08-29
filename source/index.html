@@ -68,8 +68,8 @@
                     <label class="form__label form__label--search">
                       <input class="form__input" type="search" placeholder="Введите ваш поисковый запрос">
                     </label>
-
                   </fieldset>
+
                   <fieldset class="form__fieldset">
                     <div class="form__title">Категории</div>
                     <label class="form__label">
@@ -79,14 +79,37 @@
                       <input class="form__input" type="text" placeholder="Не выбрано">
                     </label>
                   </fieldset>
-                  <fieldset class="form__fieldset">
-                    <div class="form__title">Качество</div>
-                    <select>
-                      <option>10</option>
-                      <option>20</option>
-                      <option>100</option>
-                    </select>
-                  </fieldset>
+
+                  <div class="form__fieldset">
+                    <div class="form__title">Количество</div>
+
+                    <div class="form__select select">
+                      <div class="form__select-header select__header">
+                        <span class="form__select-current select__current">
+                          100
+                        </span>
+                        <svg width='12' height='12'>
+                          <use href='img/sprite/sprite.svg#arrow'></use>
+                        </svg>
+                      </div>
+
+                      <ul class="form__select-body select__body">
+                        <li class="form__select-item select__item" data-choice='choosen'>10</li>
+                        <li class="form__select-item select__item" data-choice='choosen'>
+                          <span>20</span>
+                        </li>
+                        <li class="form__select-item select__item" data-choice='choosen'>
+                          <span>50</span>
+                        </li>
+                        <li class="form__select-item select__item" data-choice='choosen'>
+                          <span>100</span>
+                        </li>
+                        <li class="form__select-item select__item" data-choice='choosen'>
+                          <span>200</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="form__btns">
                   <button class="sort">
@@ -140,12 +163,24 @@
             </div>
             <div class="show">
               <div class="show__title">Показывать по:</div>
-              <select name="">
-                <option>20</option>
-                <option>50</option>
-                <option>100</option>
-              </select>
+              <div class="show__select select">
+                <div class="show__select-header select__header">
+                  <span class="show__select-current select__current">
+                    20
+                  </span>
+                  <svg width='6' height='12'>
+                  <use href='img/sprite/sprite.svg#arrow'></use>
+                  </svg>
+                </div>
+
+                <ul class="show__select-body select__body">
+                  <li class="show__select-item select__item" data-choice='choosen'>20</li>
+                  <li class="show__select-item select__item" data-choice='choosen'>50</li>
+                  <li class="show__select-item select__item" data-choice='choosen'>100</li>
+                </ul>
+              </div>
             </div>
+
             <button class="export">
               <svg width='24' height='24'>
               <use href='img/sprite/sprite.svg#export'></use>
