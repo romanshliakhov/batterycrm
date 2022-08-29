@@ -1,0 +1,10 @@
+.show {
+  display: flex;
+  align-items: center;
+  grid-gap: 7px;
+  margin-right: 40px;
+
+  &__title {
+    color: var(--gray);
+  }
+}

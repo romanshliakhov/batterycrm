@@ -26,13 +26,29 @@ header {
     grid-gap: 10px;
   }
 
+  &__user-btn {
+    position: relative;
+
+    &:hover {
+      .header__user-settings {
+        display: block;
+      }
+
+      .header__btn {
+        svg {
+          stroke: var(--yellow);
+        }
+      }
+    }
+  }
+
   &__btn {
     height: 24px;
     width: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 50px;
     transition: 0.3s ease;
 
@@ -47,5 +63,14 @@ header {
         stroke: var(--yellow);
       }
     }
+  }
+
+  &__user-settings {
+    padding-top: 31px;
+    display: none;
+    position: absolute;
+    width: 161px;
+    right: -15px;
+    z-index: 3;
   }
 }

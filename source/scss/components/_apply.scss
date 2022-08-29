@@ -1,0 +1,17 @@
+.apply {
+  padding: 11px 28px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--white);
+  border-radius: 16px;
+  background-color: var(--green);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: var(--yellow);
+  }
+
+  &:active {
+    background-color: var(--gold);
+  }
+}
