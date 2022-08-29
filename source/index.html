@@ -181,7 +181,7 @@
               </div>
             </div>
 
-            <button class="export">
+            <button class="export" data-path="export">
               <svg width='24' height='24'>
               <use href='img/sprite/sprite.svg#export'></use>
               </svg>
@@ -192,6 +192,7 @@
     </main>
 
     @include('partials/footer.html',{})
+    @include('partials/modals.html',{})
   </div>
 
   <script type="text/javascript" src="js/main.js"></script>
