@@ -1,0 +1,41 @@
+.choose {
+  max-width: 847px;
+  width: 100%;
+
+  &__modal-content {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 24px;
+    padding-top: 47px;
+    padding-left: 60px;
+    text-align: left;
+  }
+
+  &__content {
+    height: 360px;
+    overflow-y: auto;
+  }
+
+  &__categories {
+    max-width: 711px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  &__categories-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &__categories-list {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+
+  &__categories-item {
+    height: 24px;
+  }
+}

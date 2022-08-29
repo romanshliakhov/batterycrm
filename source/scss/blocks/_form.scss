@@ -1,21 +1,24 @@
 .form {
-  &__fieldsets {
+  &__info {
+    width: 100%;
     display: flex;
     align-items: center;
     grid-gap: 12px;
   }
 
-  &__fieldset {
+  &__info-block {
     display: flex;
     flex-direction: column;
     grid-gap: 7px;
+    max-width: 376px;
+    width: 100%;
   }
 
   &__label {
-    display: block;
     position: relative;
-    width: 376px;
+    display: block;
     height: 44px;
+    width: 100%;
     display: flex;
     align-items: center;
     grid-gap: 7px;
@@ -122,6 +125,23 @@
     &:hover {
       background-color: rgba(100, 182, 172, 0.3);
       color: var(--green);
+    }
+  }
+
+  &__categories {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    grid-gap: 7px;
+    padding-left: 14px;
+    border: 2px solid #ACDED8;
+    border-radius: 40px;
+  }
+
+  &__categories-content {
+    span {
+      color: rgba(20, 49, 39, 0.5);
+      cursor: pointer;
     }
   }
 

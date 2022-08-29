@@ -63,25 +63,22 @@
   }
 
   &__close {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    transition: all 0.4s ease;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 
     svg {
-      fill: var(--color-blue-text);
+      transition: all 0.3s ease;
+      stroke: var(--green);
     }
 
     &:hover,
     &:active {
-      background: var(--color-blue-border-bg);
-      border-radius: 5px;
-
       svg {
-        fill: var(--color-blue);
+        stroke: var(--light-green);
       }
     }
   }
@@ -103,7 +100,8 @@
     border-radius: 16px;
     color: var(--green);
 
-    &--download {
+    &--download,
+    &--choose {
       background-color: var(--green);
       color: var(--white);
       font-weight: 500;
