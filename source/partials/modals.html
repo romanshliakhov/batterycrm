@@ -1,13 +1,30 @@
 <div class="modal">
   <div class="modal__container" data-target="export">
-    <div class="modal__wrapper">
-      <div class="modal__head">
-        <div class="modal__title">Выберите формат экспорта</div>
-        <div class="modal__close modal-close">
-          <svg width='18' height='18'>
-            <use href='img/sprite/sprite.svg#close'></use>
-          </svg>
+    <div class="modal__wrapper download">
+      <div class="modal__title">Выберите формат экспорта</div>
+
+      <div class="download__modal-content">
+        <div class="download__select select">
+          <div class="download__select-header select__header">
+            <span class="download__select-current select__current">
+              Таблица XLSX
+            </span>
+            <svg width='12' height='12'>
+              <use href='img/sprite/sprite.svg#arrow'></use>
+            </svg>
+          </div>
+
+          <ul class="download__select-body select__body">
+            <li class="download__select-item select__item" data-choice='choosen'>Таблица XLSX</li>
+            <li class="download__select-item select__item" data-choice='choosen'>Таблица XLS</li>
+          </ul>
         </div>
+      </div>
+
+      <div class="modal__bottom">
+        <button class="modal__btn modal__btn--download">Загрузить</button>
+        <button class="modal__btn modal-close">Отменить</button>
+      </div>
       </div>
     </div>
   </div>
