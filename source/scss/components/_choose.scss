@@ -14,6 +14,7 @@
   &__content {
     height: 360px;
     overflow-y: auto;
+    overflow-x: hidden;
     margin-right: 4px;
 
     &::-webkit-scrollbar {
@@ -25,7 +26,6 @@
       background-color: var(--yellow);
       border-radius: 100px;
     }
-
   }
 
   &__categories {

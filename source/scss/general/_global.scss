@@ -29,6 +29,14 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
 a {
   display: inline-flex;
   color: inherit;
