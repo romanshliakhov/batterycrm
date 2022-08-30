@@ -51,6 +51,10 @@
       border-bottom-right-radius: 0;
       margin-bottom: 16px;
       background-color: var(--light-green);
+
+      .table__product-item span {
+        width: initial;
+      }
     }
 
     &:last-child {
@@ -61,6 +65,7 @@
   &__btn {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     grid-gap: 2px;
     font-size: 14px;
   }
@@ -73,6 +78,7 @@
   &__product-category {
     width: 125px;
     margin-right: 35px;
+    flex-grow: 1;
   }
 
   &__product-itemnumber {
@@ -100,6 +106,7 @@
     font-weight: 500;
     color: var(--black);
     transition: all 0.3s ease;
+    flex-grow: 1;
 
     span {
       display: block;
