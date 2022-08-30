@@ -78,12 +78,13 @@
   &__product-category {
     width: 125px;
     margin-right: 35px;
-    flex-grow: 1;
+    flex-grow: 2;
   }
 
   &__product-itemnumber {
     width: 70px;
     margin-right: 35px;
+    flex-grow: 1;
   }
 
   &__product-image {
@@ -106,7 +107,7 @@
     font-weight: 500;
     color: var(--black);
     transition: all 0.3s ease;
-    flex-grow: 1;
+    flex-grow: 2;
 
     span {
       display: block;
