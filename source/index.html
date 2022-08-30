@@ -8,1854 +8,1845 @@
 
     <main class="main">
       <section class="navigation">
-        <div class="container">
-          <div class="navigation__wrapper">
-            <ul class="navigation__controls">
-              <li class="navigation__controls-item">
-                <div class="navigation__controls-btn">
-                  <svg width='19' height='19'>
-                    <use href='img/sprite/sprite.svg#bag'></use>
-                  </svg>
-                  <span>Заказы</span>
-                </div>
-              </li>
-              <li class="navigation__controls-item">
-                <div class="navigation__controls-btn">
-                  <svg width='19' height='19'>
-                    <use href='img/sprite/sprite.svg#clients'></use>
-                  </svg>
-                  <span>Клиенты</span>
-                </div>
-              </li>
-              <li class="navigation__controls-item">
-                <div class="navigation__controls-btn">
-                  <svg width='19' height='19'>
-                    <use href='img/sprite/sprite.svg#shop'></use>
-                  </svg>
-                  <span>Товары</span>
-                </div>
-              </li>
-              <li class="navigation__controls-item">
-                <div class="navigation__controls-btn">
-                  <svg width='19' height='19'>
-                    <use href='img/sprite/sprite.svg#wallet'></use>
-                  </svg>
-                  <span>Финансы</span>
-                </div>
-              </li>
-              <li class="navigation__controls-item">
-                <div class="navigation__controls-btn active">
-                  <svg width='19' height='19'>
-                    <use href='img/sprite/sprite.svg#tag'></use>
-                  </svg>
-                  <span>Соответствия товаров</span>
-                </div>
-              </li>
-              <li class="navigation__controls-item">
-                <div class="navigation__controls-btn">
-                  <svg width='19' height='19'>
-                    <use href='img/sprite/sprite.svg#activity'></use>
-                  </svg>
-                  <span>Аналитика</span>
-                </div>
-              </li>
-            </ul>
-            <div class="navigation__information">
-              <form class="navigation__sorting-form form">
-                <div class="form__info">
-                  <fieldset class="form__info-block">
-                    <div class="form__title">Поиск</div>
-                    <label class="form__label form__label--search">
-                      <input class="form__input" type="search" placeholder="Введите ваш поисковый запрос">
-                    </label>
-                  </fieldset>
+        <div class="navigation__wrapper">
+          <ul class="navigation__controls">
+            <li class="navigation__controls-item">
+              <div class="navigation__controls-btn">
+                <svg width='19' height='19'>
+                  <use href='img/sprite/sprite.svg#bag'></use>
+                </svg>
+                <span>Заказы</span>
+              </div>
+            </li>
+            <li class="navigation__controls-item">
+              <div class="navigation__controls-btn">
+                <svg width='19' height='19'>
+                  <use href='img/sprite/sprite.svg#clients'></use>
+                </svg>
+                <span>Клиенты</span>
+              </div>
+            </li>
+            <li class="navigation__controls-item">
+              <div class="navigation__controls-btn">
+                <svg width='19' height='19'>
+                  <use href='img/sprite/sprite.svg#shop'></use>
+                </svg>
+                <span>Товары</span>
+              </div>
+            </li>
+            <li class="navigation__controls-item">
+              <div class="navigation__controls-btn">
+                <svg width='19' height='19'>
+                  <use href='img/sprite/sprite.svg#wallet'></use>
+                </svg>
+                <span>Финансы</span>
+              </div>
+            </li>
+            <li class="navigation__controls-item">
+              <div class="navigation__controls-btn active">
+                <svg width='19' height='19'>
+                  <use href='img/sprite/sprite.svg#tag'></use>
+                </svg>
+                <span>Соответствия товаров</span>
+              </div>
+            </li>
+            <li class="navigation__controls-item">
+              <div class="navigation__controls-btn">
+                <svg width='19' height='19'>
+                  <use href='img/sprite/sprite.svg#activity'></use>
+                </svg>
+                <span>Аналитика</span>
+              </div>
+            </li>
+          </ul>
+          <div class="navigation__information">
+            <form class="navigation__sorting-form form">
+              <div class="form__info">
+                <fieldset class="form__info-block">
+                  <div class="form__title">Поиск</div>
+                  <label class="form__label form__label--search">
+                    <input class="form__input" type="search" placeholder="Введите ваш поисковый запрос">
+                  </label>
+                </fieldset>
 
-                  <div class="form__info-block">
-                    <div class="form__title">Категории</div>
+                <div class="form__info-block">
+                  <div class="form__title">Категории</div>
 
-                    <div class="form__categories">
-                      <svg width='24' height='24'>
-                        <use href='img/sprite/sprite.svg#categories'></use>
-                      </svg>
-
-                      <div class="form__categories-content" data-path="categories">
-                        <span class="form__categories-text">Не выбрано</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="form__info-block">
-                    <div class="form__title">Количество</div>
-
-                    <div class="form__select select">
-                      <div class="form__select-header select__header">
-                        <span class="form__select-current select__current">
-                          100
-                        </span>
-                        <svg width='12' height='12'>
-                          <use href='img/sprite/sprite.svg#arrow'></use>
-                        </svg>
-                      </div>
-
-                      <ul class="form__select-body select__body">
-                        <li class="form__select-item select__item" data-choice='choosen'>10</li>
-                        <li class="form__select-item select__item" data-choice='choosen'>
-                          <span>20</span>
-                        </li>
-                        <li class="form__select-item select__item" data-choice='choosen'>
-                          <span>50</span>
-                        </li>
-                        <li class="form__select-item select__item" data-choice='choosen'>
-                          <span>100</span>
-                        </li>
-                        <li class="form__select-item select__item" data-choice='choosen'>
-                          <span>200</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="form__btns">
-                  <button class="sort">
-                    <svg width='44' height='44'>
-                    <use href='img/sprite/sprite.svg#sort'></use>
+                  <div class="form__categories">
+                    <svg width='24' height='24'>
+                      <use href='img/sprite/sprite.svg#categories'></use>
                     </svg>
-                  </button>
-                  <button class="apply">Применить</button>
-                  <button class="clear">Очистить</button>
+
+                    <div class="form__categories-content" data-path="categories">
+                      <span class="form__categories-text">Не выбрано</span>
+                    </div>
+                  </div>
                 </div>
-              </form>
-            </div>
+
+                <div class="form__info-block">
+                  <div class="form__title">Количество</div>
+
+                  <div class="form__select select">
+                    <div class="form__select-header select__header">
+                      <span class="form__select-current select__current">
+                        100
+                      </span>
+                      <svg width='12' height='12'>
+                        <use href='img/sprite/sprite.svg#arrow'></use>
+                      </svg>
+                    </div>
+
+                    <ul class="form__select-body select__body">
+                      <li class="form__select-item select__item" data-choice='choosen'>10</li>
+                      <li class="form__select-item select__item" data-choice='choosen'>
+                        <span>20</span>
+                      </li>
+                      <li class="form__select-item select__item" data-choice='choosen'>
+                        <span>50</span>
+                      </li>
+                      <li class="form__select-item select__item" data-choice='choosen'>
+                        <span>100</span>
+                      </li>
+                      <li class="form__select-item select__item" data-choice='choosen'>
+                        <span>200</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="form__btns">
+                <div class="filter" data-path="categories">
+                  <svg width='44' height='44'>
+                  <use href='img/sprite/sprite.svg#sort'></use>
+                  </svg>
+                </div>
+                <button class="apply">Применить</button>
+                <button class="clear">Очистить</button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
 
       <section class="table">
-        <div class="container">
-          <div class="table__wrapp">
-            <div class="table__product">
-              <div class="table__title">Товар</div>
+        <div class="table__wrapp">
+          <div class="table__product">
+            <div class="table__title">Товар</div>
 
-              <ul class="table__product-list">
-                <li class="table__product-item">
-                  <button class="table__product-amount table__btn">
-                    <span>#</span>
-                      <svg width='14' height='14'>
+            <ul class="table__product-list">
+              <li class="table__product-item">
+                <button class="table__product-amount table__btn">
+                  <span>#</span>
+                    <svg width='14' height='14'>
+                  <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__product-category table__btn">
+                  <span>Категория</span>
+                    <svg width='14' height='14'>
+                  <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__product-category table__btn">
+                  <span>Подкатегория 1</span>
+                  <svg width='14' height='14'>
                     <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__product-category table__btn">
-                    <span>Категория</span>
-                      <svg width='14' height='14'>
+                  </svg>
+                </button>
+                <button class="table__product-category table__btn">
+                  <span>Подкатегория 2</span>
+                  <svg width='14' height='14'>
                     <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__product-category table__btn">
-                    <span>Подкатегория 1</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__product-category table__btn">
-                    <span>Подкатегория 2</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__product-itemnumber table__btn">
-                    <span>Артикул</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__product-image table__btn">
-                    <span>Фото</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__product-title table__btn">
-                    <span>Название товара</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>1</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
+                  </svg>
+                </button>
+                <button class="table__product-itemnumber table__btn">
+                  <span>Артикул</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__product-image table__btn">
+                  <span>Фото</span>
+                </button>
+                <button class="table__product-title table__btn">
+                  <span>Название товара</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>1</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
 
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>2</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>3</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>4</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>5</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>6</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>7</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>8</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>9</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>10</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>11</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>12</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>13</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>14</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>15</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>16</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>17</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>18</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>19</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-                <li class="table__product-item">
-                  <div class="table__product-amount">
-                    <span>20</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Аксессуары</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Кабели</span>
-                  </div>
-                  <div class="table__product-category">
-                    <span>Для iPhone</span>
-                  </div>
-                  <div class="table__product-itemnumber">
-                    <span>tyrus1488</span>
-                  </div>
-                  <div class="table__product-image">
-                    <picture>
-                      <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
-                      <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
-                    </picture>
-                  </div>
-                  <div class="table__product-title">
-                    <span>USB Cable Yoho grey 1564 micro max</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>2</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>3</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>4</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>5</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>6</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>7</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>8</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>9</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>10</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>11</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>12</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>13</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>14</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>15</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>16</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>17</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>18</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>19</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+              <li class="table__product-item">
+                <div class="table__product-amount">
+                  <span>20</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Аксессуары</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Кабели</span>
+                </div>
+                <div class="table__product-category">
+                  <span>Для iPhone</span>
+                </div>
+                <div class="table__product-itemnumber">
+                  <span>tyrus1488</span>
+                </div>
+                <div class="table__product-image">
+                  <picture>
+                    <source type='image/webp' srcset='img/avatars/yoho-1564.webp'>
+                    <img width='40' height='40' src='img/avatars/yoho-1564.png' alt='yoho 1564'>
+                  </picture>
+                </div>
+                <div class="table__product-title">
+                  <span>USB Cable Yoho grey 1564 micro max</span>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-            <div class="table__warehouse">
-              <div class="table__title">Сайт</div>
+          <div class="table__warehouse">
+            <div class="table__title">Сайт</div>
 
-              <ul class="table__warehouse-list">
-                <li class="table__warehouse-item green">
-                  <button class="table__warehouse-row table__btn">
-                    <span>Цена</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__warehouse-row table__btn">
-                    <span>Прибыль</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item extra-gray">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item extra-gray">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>758</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1000</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
+            <ul class="table__warehouse-list">
+              <li class="table__warehouse-item green">
+                <button class="table__warehouse-row table__btn">
+                  <span>Цена</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__warehouse-row table__btn">
+                  <span>Прибыль</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item extra-gray">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item extra-gray">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>758</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1000</span>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-            <div class="table__warehouse">
-              <div class="table__title">Rozetka</div>
+          <div class="table__warehouse">
+            <div class="table__title">Rozetka</div>
 
-              <ul class="table__warehouse-list">
-                <li class="table__warehouse-item pink">
-                  <button class="table__warehouse-row table__btn">
-                    <span>Цена</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__warehouse-row table__btn">
-                    <span>Прибыль</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item extra-gray">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>5568</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>1258</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
+            <ul class="table__warehouse-list">
+              <li class="table__warehouse-item pink">
+                <button class="table__warehouse-row table__btn">
+                  <span>Цена</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__warehouse-row table__btn">
+                  <span>Прибыль</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item extra-gray">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>5568</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>1258</span>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-            <div class="table__warehouse">
-              <div class="table__title">Prom</div>
+          <div class="table__warehouse">
+            <div class="table__title">Prom</div>
 
-              <ul class="table__warehouse-list">
-                <li class="table__warehouse-item pink">
-                  <button class="table__warehouse-row table__btn">
-                    <span>Цена</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__warehouse-row table__btn">
-                    <span>Прибыль</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item green">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item pink">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
+            <ul class="table__warehouse-list">
+              <li class="table__warehouse-item pink">
+                <button class="table__warehouse-row table__btn">
+                  <span>Цена</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__warehouse-row table__btn">
+                  <span>Прибыль</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item green">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item pink">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-            <div class="table__warehouse">
-              <div class="table__title">Склад 1</div>
+          <div class="table__warehouse">
+            <div class="table__title">Склад 1</div>
 
-              <ul class="table__warehouse-list">
-                <li class="table__warehouse-item white">
-                  <button class="table__warehouse-row table__btn">
-                    <span>Кол-во</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__warehouse-row table__btn">
-                    <span>Цена</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
+            <ul class="table__warehouse-list">
+              <li class="table__warehouse-item white">
+                <button class="table__warehouse-row table__btn">
+                  <span>Кол-во</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__warehouse-row table__btn">
+                  <span>Цена</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
 
-              </ul>
-            </div>
+            </ul>
+          </div>
 
-            <div class="table__warehouse">
-              <div class="table__title">Склад 2</div>
+          <div class="table__warehouse">
+            <div class="table__title">Склад 2</div>
 
-              <ul class="table__warehouse-list">
-                <li class="table__warehouse-item white">
-                  <button class="table__warehouse-row table__btn">
-                    <span>Кол-во</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__warehouse-row table__btn">
-                    <span>Цена</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>332</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>8523</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
+            <ul class="table__warehouse-list">
+              <li class="table__warehouse-item white">
+                <button class="table__warehouse-row table__btn">
+                  <span>Кол-во</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__warehouse-row table__btn">
+                  <span>Цена</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>332</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>8523</span>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-            <div class="table__warehouse">
-              <div class="table__title">Склад 3</div>
+          <div class="table__warehouse">
+            <div class="table__title">Склад 3</div>
 
-              <ul class="table__warehouse-list">
-                <li class="table__warehouse-item white">
-                  <button class="table__warehouse-row table__btn">
-                    <span>Кол-во</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                  <button class="table__warehouse-row table__btn">
-                    <span>Цена</span>
-                    <svg width='14' height='14'>
-                      <use href='img/sprite/sprite.svg#sorting'></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-                <li class="table__warehouse-item white">
-                  <div class="table__warehouse-row">
-                    <span>96</span>
-                  </div>
-                  <div class="table__warehouse-row">
-                    <span>9632</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
+            <ul class="table__warehouse-list">
+              <li class="table__warehouse-item white">
+                <button class="table__warehouse-row table__btn">
+                  <span>Кол-во</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+                <button class="table__warehouse-row table__btn">
+                  <span>Цена</span>
+                  <svg width='14' height='14'>
+                    <use href='img/sprite/sprite.svg#sorting'></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+              <li class="table__warehouse-item white">
+                <div class="table__warehouse-row">
+                  <span>96</span>
+                </div>
+                <div class="table__warehouse-row">
+                  <span>9632</span>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       <section class="controls">
-        <div class="container">
-          <div class="controls__wrapper">
-            <div class="pagination">
-              <a class="pagination__nav pagination__nav--prev" href="#">
-                <svg width='11' height='15'>
-                  <use href='img/sprite/sprite.svg#arrow'></use>
-                </svg>
-              </a>
-              <ul class="pagination__list">
-                <li class="pagination__list-item">
-                  <a class="pagination__list-link pagination__list-link--active" href="#">1</a>
-                </li>
-                <li class="pagination__list-item">
-                  <a class="pagination__list-link" href="#">2</a>
-                </li>
-                <li class="pagination__list-item">
-                  <a class="pagination__list-link" href="#">3</a>
-                </li>
-                <li class="pagination__list-item">
-                  <span>...</span>
-                </li>
-                <li class="pagination__list-item">
-                  <a class="pagination__list-link" href="#">18</a>
-                </li>
-                <li class="pagination__list-item">
-                  <a class="pagination__list-link" href="#">19</a>
-                </li>
-              </ul>
-              <a class="pagination__nav pagination__nav--next" href="#">
-                <svg width='11' height='15'>
-                  <use href='img/sprite/sprite.svg#arrow'></use>
-                </svg>
-              </a>
-            </div>
-            <div class="show">
-              <div class="show__title">Показывать по:</div>
-              <div class="show__select select">
-                <div class="show__select-header select__header">
-                  <span class="show__select-current select__current">
-                    20
-                  </span>
-                  <svg width='6' height='12'>
-                  <use href='img/sprite/sprite.svg#arrow'></use>
-                  </svg>
-                </div>
-
-                <ul class="show__select-body select__body">
-                  <li class="show__select-item select__item" data-choice='choosen'>20</li>
-                  <li class="show__select-item select__item" data-choice='choosen'>50</li>
-                  <li class="show__select-item select__item" data-choice='choosen'>100</li>
-                </ul>
-              </div>
-            </div>
-
-            <button class="export" data-path="export">
-              <svg width='24' height='24'>
-              <use href='img/sprite/sprite.svg#export'></use>
+        <div class="controls__wrapper">
+          <div class="pagination">
+            <a class="pagination__nav pagination__nav--prev" href="#">
+              <svg width='11' height='15'>
+                <use href='img/sprite/sprite.svg#arrow'></use>
               </svg>
-            </button>
+            </a>
+            <ul class="pagination__list">
+              <li class="pagination__list-item">
+                <a class="pagination__list-link pagination__list-link--active" href="#">1</a>
+              </li>
+              <li class="pagination__list-item">
+                <a class="pagination__list-link" href="#">2</a>
+              </li>
+              <li class="pagination__list-item">
+                <a class="pagination__list-link" href="#">3</a>
+              </li>
+              <li class="pagination__list-item">
+                <span>...</span>
+              </li>
+              <li class="pagination__list-item">
+                <a class="pagination__list-link" href="#">18</a>
+              </li>
+              <li class="pagination__list-item">
+                <a class="pagination__list-link" href="#">19</a>
+              </li>
+            </ul>
+            <a class="pagination__nav pagination__nav--next" href="#">
+              <svg width='11' height='15'>
+                <use href='img/sprite/sprite.svg#arrow'></use>
+              </svg>
+            </a>
           </div>
+          <div class="show">
+            <div class="show__title">Показывать по:</div>
+            <div class="show__select select">
+              <div class="show__select-header select__header">
+                <span class="show__select-current select__current">
+                  20
+                </span>
+                <svg width='6' height='12'>
+                <use href='img/sprite/sprite.svg#arrow'></use>
+                </svg>
+              </div>
+
+              <ul class="show__select-body select__body">
+                <li class="show__select-item select__item" data-choice='choosen'>20</li>
+                <li class="show__select-item select__item" data-choice='choosen'>50</li>
+                <li class="show__select-item select__item" data-choice='choosen'>100</li>
+              </ul>
+            </div>
+          </div>
+
+          <button class="export" data-path="export">
+            <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#export'></use>
+            </svg>
+          </button>
         </div>
       </section>
     </main>

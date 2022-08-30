@@ -50,6 +50,7 @@
   }
 
   &__select-body {
+    display: none;
     flex-direction: column;
     grid-gap: 3px;
     margin-top: 10px;
@@ -57,8 +58,6 @@
     padding: 10px 0;
     background-color: var(--white);
     border-radius: 12px;
-    opacity: 0;
-    visibility: hidden;
     box-shadow: 0px 4px 15px rgba(212, 212, 212, 0.64);
   }
 

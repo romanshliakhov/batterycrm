@@ -29,13 +29,14 @@
   }
 
   &__product {
-    max-width: 948px;
+    min-width: 948px;
     width: 100%;
   }
 
   &__product-item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 20px;
     background-color: var(--white);
     box-shadow: 0px 4px 15px -5px rgba(213, 213, 213, 0.64);
@@ -44,6 +45,7 @@
     color: var(--gray);
 
     &:first-of-type {
+      height: 30px;
       padding: 7px 20px 6px;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
@@ -132,7 +134,7 @@
       &::before {
         content: '';
         position: absolute;
-        width: 10px;
+        width: 30px;
         height: 30px;
         background-color: var(--light-green);
         left: -10px;
