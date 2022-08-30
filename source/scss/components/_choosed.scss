@@ -1,0 +1,16 @@
+.choosed {
+  display: flex;
+  align-items: center;
+  grid-gap: 4px;
+  padding: 3px 10px 5px;
+  background-color: var(--light-green);
+  border-radius: 20px;
+
+  span {
+    color: var(--black);
+  }
+
+  svg {
+    width: 12px;
+  }
+}

@@ -6,9 +6,9 @@ let selectScript = function (select) {
         const selectCurrent = item.querySelector(".select__current");
         item.addEventListener("click", (event) => {
             const el = event.target.dataset.choice;
-            const text = event.target.innerHTML;
+            const text = event.target.innerText;
             if (el === "choosen" && selectCurrent.innerHTML !== text) {
-                selectCurrent.innerHTML = text;
+                selectCurrent.innerText = text;
             }
             item.classList.toggle("is-active");
         });
