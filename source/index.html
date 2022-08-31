@@ -60,82 +60,105 @@
             </li>
           </ul>
           <div class="navigation__information">
-            <form class="navigation__sorting-form form">
-              <div class="form__info">
-                <fieldset class="form__info-block">
-                  <div class="form__title">Поиск</div>
-                  <label class="form__label form__label--search">
-                    <input class="form__input" type="search" placeholder="Введите ваш поисковый запрос">
-                  </label>
-                </fieldset>
+            <div class="navigation__filter">
 
-                <div class="form__info-block">
-                  <div class="form__title">Категории</div>
+            </div>
 
-                  <div class="form__categories">
+            <ul class="navigation__filter accordion" data-spollers data-one-spoller>
+              <li class="navigation__filter-item accordion__item">
+                  <button tabindex="-1" type="button" data-spoller class="navigation__filter-btn">
+                    <span>Фильтры</span>
                     <svg width='24' height='24'>
-                      <use href='img/sprite/sprite.svg#categories'></use>
+                      <use href='img/sprite/sprite.svg#filter'></use>
                     </svg>
+                  </button>
 
-                    <div class="form__categories-content" data-path="filter">
-                      <span class="form__categories-text">Не выбрано</span>
-                      <div class="choosed">
-                        <svg width='12' height='12'>
-                          <use href='img/sprite/sprite.svg#choosed'></use>
-                        </svg>
-                        <span class="choosed__title">Автотовары</span>
-                      </div>
-                      <div class="choosed">
-                        <svg width='12' height='12'>
-                          <use href='img/sprite/sprite.svg#choosed'></use>
-                        </svg>
-                        <span class="choosed__title">Зарядки</span>
-                      </div>
-                      <div class="choosed">
-                        <svg width='12' height='12'>
-                          <use href='img/sprite/sprite.svg#choosed'></use>
-                        </svg>
-                        <span class="choosed__title">Солнечный</span>
-                      </div>
-                    </div>
+                  <div class="navigation__filter-body">
+                    <form class="navigation__sorting-form form">
+                      <div class="form__info">
+                        <fieldset class="form__info-block">
+                          <div class="form__title">Поиск</div>
+                          <label class="form__label form__label--search">
+                            <input class="form__input" type="search" placeholder="Введите ваш поисковый запрос">
+                          </label>
+                        </fieldset>
 
-                    <div class="form__categories-blur"></div>
+                        <div class="form__info-block">
+                          <div class="form__title">Категории</div>
+
+                          <div class="form__categories">
+                            <svg width='24' height='24'>
+                              <use href='img/sprite/sprite.svg#categories'></use>
+                            </svg>
+
+                            <div class="form__categories-content" data-path="filter">
+                              <span class="form__categories-text">Не выбрано</span>
+                              <div class="choosed">
+                                <svg width='12' height='12'>
+                                  <use href='img/sprite/sprite.svg#choosed'></use>
+                                </svg>
+                                <span class="choosed__title">Автотовары</span>
+                              </div>
+                              <div class="choosed">
+                                <svg width='12' height='12'>
+                                  <use href='img/sprite/sprite.svg#choosed'></use>
+                                </svg>
+                                <span class="choosed__title">Зарядки</span>
+                              </div>
+                              <div class="choosed">
+                                <svg width='12' height='12'>
+                                  <use href='img/sprite/sprite.svg#choosed'></use>
+                                </svg>
+                                <span class="choosed__title">Солнечный</span>
+                              </div>
+                            </div>
+
+                            <div class="form__categories-blur"></div>
+                          </div>
+                        </div>
+
+                        <div class="form__info-block">
+                          <div class="form__title">Количество</div>
+
+                          <div class="form__select select">
+                            <div class="form__select-header select__header">
+                              <span class="form__select-current select__current">
+                                100
+                              </span>
+                              <svg width='12' height='12'>
+                                <use href='img/sprite/sprite.svg#arrow'></use>
+                              </svg>
+                            </div>
+
+                            <ul class="form__select-body select__body">
+                              <li class="form__select-item select__item" data-choice='choosen'>10</li>
+                              <li class="form__select-item select__item" data-choice='choosen'>20</li>
+                              <li class="form__select-item select__item" data-choice='choosen'>50</li>
+                              <li class="form__select-item select__item" data-choice='choosen'>100</li>
+                              <li class="form__select-item select__item" data-choice='choosen'>200</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form__btns">
+                        <div class="sorting" data-path="categories">
+                          <svg width='44' height='44'>
+                          <use href='img/sprite/sprite.svg#sort'></use>
+                          </svg>
+                        </div>
+                        <button class="apply">Применить</button>
+                        <button class="clear">Очистить</button>
+                      </div>
+                    </form>
                   </div>
-                </div>
+              </li>
+            </ul>
 
-                <div class="form__info-block">
-                  <div class="form__title">Количество</div>
-
-                  <div class="form__select select">
-                    <div class="form__select-header select__header">
-                      <span class="form__select-current select__current">
-                        100
-                      </span>
-                      <svg width='12' height='12'>
-                        <use href='img/sprite/sprite.svg#arrow'></use>
-                      </svg>
-                    </div>
-
-                    <ul class="form__select-body select__body">
-                      <li class="form__select-item select__item" data-choice='choosen'>10</li>
-                      <li class="form__select-item select__item" data-choice='choosen'>20</li>
-                      <li class="form__select-item select__item" data-choice='choosen'>50</li>
-                      <li class="form__select-item select__item" data-choice='choosen'>100</li>
-                      <li class="form__select-item select__item" data-choice='choosen'>200</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="form__btns">
-                <div class="sorting" data-path="categories">
-                  <svg width='44' height='44'>
-                  <use href='img/sprite/sprite.svg#sort'></use>
-                  </svg>
-                </div>
-                <button class="apply">Применить</button>
-                <button class="clear">Очистить</button>
-              </div>
-            </form>
+            <div class="navigation__swipe-icon">
+              <svg width='36' height='40'>
+                <use href='img/sprite/sprite.svg#swipe'></use>
+              </svg>
+            </div>
           </div>
         </div>
       </section>
@@ -146,7 +169,7 @@
             <div class="table__title">Товар</div>
 
             <ul class="table__product-list">
-              <li class="table__product-item">
+              <li class="table__product-item" data-sticky="sticky">
                 <button class="table__product-amount table__btn">
                   <span>#</span>
                     <svg width='14' height='14'>
@@ -324,7 +347,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>1</span>
+                  <span>6</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -351,7 +374,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>2</span>
+                  <span>7</span>
                 </div>
                 <div class="table__product-category">
                   <span>Техника</span>
@@ -378,7 +401,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>3</span>
+                  <span>8</span>
                 </div>
                 <div class="table__product-category">
                   <span>Техника</span>
@@ -405,7 +428,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>4</span>
+                  <span>9</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -432,7 +455,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>5</span>
+                  <span>10</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -459,7 +482,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>1</span>
+                  <span>11</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -486,7 +509,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>2</span>
+                  <span>12</span>
                 </div>
                 <div class="table__product-category">
                   <span>Техника</span>
@@ -513,7 +536,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>3</span>
+                  <span>13</span>
                 </div>
                 <div class="table__product-category">
                   <span>Техника</span>
@@ -540,7 +563,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>4</span>
+                  <span>14</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -567,7 +590,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>5</span>
+                  <span>15</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -594,7 +617,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>1</span>
+                  <span>16</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -621,7 +644,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>2</span>
+                  <span>17</span>
                 </div>
                 <div class="table__product-category">
                   <span>Техника</span>
@@ -648,7 +671,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>3</span>
+                  <span>18</span>
                 </div>
                 <div class="table__product-category">
                   <span>Техника</span>
@@ -675,7 +698,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>4</span>
+                  <span>19</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -702,7 +725,7 @@
               </li>
               <li class="table__product-item">
                 <div class="table__product-amount">
-                  <span>5</span>
+                  <span>20</span>
                 </div>
                 <div class="table__product-category">
                   <span>Аксессуары</span>
@@ -734,7 +757,7 @@
             <div class="table__title">Сайт</div>
 
             <ul class="table__warehouse-list">
-              <li class="table__warehouse-item green">
+              <li class="table__warehouse-item green" data-sticky="sticky">
                 <button class="table__warehouse-row table__btn">
                   <span>Цена</span>
                   <svg width='14' height='14'>
@@ -915,7 +938,7 @@
             <div class="table__title">Rozetka</div>
 
             <ul class="table__warehouse-list">
-              <li class="table__warehouse-item pink">
+              <li class="table__warehouse-item pink" data-sticky="sticky">
                 <button class="table__warehouse-row table__btn">
                   <span>Цена</span>
                   <svg width='14' height='14'>
@@ -1096,7 +1119,7 @@
             <div class="table__title">Prom</div>
 
             <ul class="table__warehouse-list">
-              <li class="table__warehouse-item pink">
+              <li class="table__warehouse-item pink" data-sticky="sticky">
                 <button class="table__warehouse-row table__btn">
                   <span>Цена</span>
                   <svg width='14' height='14'>
@@ -1277,7 +1300,7 @@
             <div class="table__title">Склад 1</div>
 
             <ul class="table__warehouse-list">
-              <li class="table__warehouse-item white">
+              <li class="table__warehouse-item white" data-sticky="sticky">
                 <button class="table__warehouse-row table__btn">
                   <span>Кол-во</span>
                   <svg width='14' height='14'>
@@ -1459,7 +1482,7 @@
             <div class="table__title">Склад 2</div>
 
             <ul class="table__warehouse-list">
-              <li class="table__warehouse-item white">
+              <li class="table__warehouse-item white sticky">
                 <button class="table__warehouse-row table__btn">
                   <span>Кол-во</span>
                   <svg width='14' height='14'>
@@ -1640,7 +1663,7 @@
             <div class="table__title">Склад 3</div>
 
             <ul class="table__warehouse-list">
-              <li class="table__warehouse-item white">
+              <li class="table__warehouse-item white" data-sticky="sticky">
                 <button class="table__warehouse-row table__btn">
                   <span>Кол-во</span>
                   <svg width='14' height='14'>

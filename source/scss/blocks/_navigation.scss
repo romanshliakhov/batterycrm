@@ -102,6 +102,10 @@
 
   &__information {
     padding: 19px 30px 25px;
+
+    @media (max-width: 768px) {
+      padding: 24px 24px 18px;
+    }
   }
 
   &__sorting-form {
@@ -117,5 +121,43 @@
     @media (max-width: 1240px) {
       flex-wrap: wrap;
     }
+  }
+
+  &__swipe-icon {
+    margin-top: 18px;
+    display: none;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  &__filter-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    @media screen and (min-width: 768px) {
+      visibility: hidden;
+      position: absolute;
+    }
+
+
+    // &._active {
+
+    // }
+
+  }
+
+  &__filter-body {
+    margin-top: 14px;
+
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
+
   }
 }

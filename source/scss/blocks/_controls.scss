@@ -1,8 +1,18 @@
 .controls {
-  padding: 33px 24px 43px;
+  padding: 23px 24px 43px;
+
+  @media (max-width: 768px) {
+    padding: 23px 16px 40px;
+  }
 
   &__wrapper {
     display: flex;
     align-items: center;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      grid-gap: 30px;
+    }
   }
 }

@@ -33,6 +33,10 @@ header {
     @media (max-width: 576px) {
       left: 0;
       transform: translateY(-50%);
+
+      svg:last-child {
+        display: none;
+      }
     }
   }
 

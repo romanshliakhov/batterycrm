@@ -60,6 +60,10 @@
   &__title {
     font-size: 24px;
     font-weight: 700;
+
+    @media (max-width: 576px) {
+      font-size: 18px;
+    }
   }
 
   &__close {

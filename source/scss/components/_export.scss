@@ -2,4 +2,13 @@
   padding: 11px;
   background: var(--green);
   border-radius: 16px;
+
+  @media (max-width: 576px) {
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+
 }

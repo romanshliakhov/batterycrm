@@ -1,21 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  // width: 100%;
+  // height: 100%;
   position: relative;
   font-family: var(--font-family-futura);
   font-size: 16px;
   line-height: 120%;
   font-weight: 400;
   color: var(--black);
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 }
 
 html {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 *,
@@ -160,6 +164,12 @@ svg {
   background-color: var(--bg);
 }
 
+.sticky {
+  // position: fixed !important;
+  // top: 10px;
+  // z-index: 50 !important;
+  // overflow-x: scroll;
+}
 
 
 
