@@ -1,4 +1,10 @@
 .sorting {
   display: flex;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    order: 1;
+    max-width: 100%;
+    display: none;
+  }
 }

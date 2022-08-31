@@ -60,9 +60,7 @@
             </li>
           </ul>
           <div class="navigation__information">
-            <div class="navigation__filter">
-
-            </div>
+            <div class="navigation__breadcrumbs">Соответствие товаров</div>
 
             <ul class="navigation__filter accordion" data-spollers data-one-spoller>
               <li class="navigation__filter-item accordion__item">
@@ -76,14 +74,19 @@
                   <div class="navigation__filter-body">
                     <form class="navigation__sorting-form form">
                       <div class="form__info">
-                        <fieldset class="form__info-block">
+                        <fieldset class="form__info-block form__info-block--search">
                           <div class="form__title">Поиск</div>
                           <label class="form__label form__label--search">
                             <input class="form__input" type="search" placeholder="Введите ваш поисковый запрос">
+                            <button class="form__search-btn">
+                              <svg width='42' height='42'>
+                                <use href='img/sprite/sprite.svg#search-btn'></use>
+                              </svg>
+                            </button>
                           </label>
                         </fieldset>
 
-                        <div class="form__info-block">
+                        <div class="form__info-block form__info-block--categories">
                           <div class="form__title">Категории</div>
 
                           <div class="form__categories">
@@ -92,7 +95,7 @@
                             </svg>
 
                             <div class="form__categories-content" data-path="filter">
-                              <span class="form__categories-text">Не выбрано</span>
+                              <!-- <span class="form__categories-text">Не выбрано</span> -->
                               <div class="choosed">
                                 <svg width='12' height='12'>
                                   <use href='img/sprite/sprite.svg#choosed'></use>
@@ -117,7 +120,7 @@
                           </div>
                         </div>
 
-                        <div class="form__info-block">
+                        <div class="form__info-block form__info-block--sorting">
                           <div class="form__title">Количество</div>
 
                           <div class="form__select select">
@@ -139,6 +142,12 @@
                             </ul>
                           </div>
                         </div>
+
+                        <div class="sorting" data-path="categories">
+                          <svg width='44' height='44'>
+                          <use href='img/sprite/sprite.svg#sort'></use>
+                          </svg>
+                        </div>
                       </div>
                       <div class="form__btns">
                         <div class="sorting" data-path="categories">
@@ -155,7 +164,7 @@
             </ul>
 
             <div class="navigation__swipe-icon">
-              <svg width='36' height='40'>
+              <svg width='38.5' height='9'>
                 <use href='img/sprite/sprite.svg#swipe'></use>
               </svg>
             </div>
