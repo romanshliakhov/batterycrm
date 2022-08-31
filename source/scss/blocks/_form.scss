@@ -93,9 +93,14 @@
   }
 
   &__search-btn {
+    display: none;
     position: absolute;
     right: 0;
     z-index: 5;
+
+    @media (max-width: 576px) {
+      display: block;
+    }
   }
 
   &__select {

@@ -6,7 +6,9 @@ import './components/dropdown.js';
 import './components/tabs.js';
 import './components/modals.js';
 import './components/sticky.js';
-import './components/accordion';
+import './components/accordion.js';
+import './components/replaceEl.js';
+import './components/poper.js';
 
 
 
