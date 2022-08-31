@@ -12,6 +12,10 @@
     grid-gap: 7px;
     max-width: 376px;
     width: 100%;
+
+    &:last-child {
+      width: initial;
+    }
   }
 
   &__label {

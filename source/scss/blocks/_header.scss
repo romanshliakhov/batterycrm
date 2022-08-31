@@ -13,6 +13,12 @@ header {
     font-size: 16px;
     font-weight: 700;
     color: var(--white);
+
+    @media (max-width: 576px) {
+      padding-left: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
   }
 
   &__logo {
@@ -23,6 +29,11 @@ header {
     display: flex;
     align-items: center;
     grid-gap: 4.85px;
+
+    @media (max-width: 576px) {
+      left: 0;
+      transform: translateY(-50%);
+    }
   }
 
   &__btns {
@@ -76,6 +87,6 @@ header {
     position: absolute;
     width: 161px;
     right: -15px;
-    z-index: 3;
+    z-index: 20;
   }
 }

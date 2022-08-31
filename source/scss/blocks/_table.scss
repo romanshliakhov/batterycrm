@@ -79,6 +79,13 @@
     width: 125px;
     margin-right: 35px;
 
+    span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     @media (min-width: 1921px) {
       flex-grow: 2;
     }
