@@ -7,8 +7,9 @@
     display: flex;
     align-items: stretch;
     grid-gap: 10px;
-    padding-bottom: 85px;
+    padding-bottom: 105px;
     margin-right: -20px;
+    padding-right: 20px;
 
 
     &::-webkit-scrollbar {
@@ -317,7 +318,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    padding: 5px 14px;
+    padding: 10px 20px;
     color: var(--gray);
     white-space: nowrap;
     background: var(--white);
@@ -331,6 +332,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+      grid-gap: 5px;
 
       &::before {
         content: '';
@@ -344,8 +346,6 @@
         z-index: 10;
         left: 50%;
         transform: translateX(-50%);
-
-
       }
     }
   }
