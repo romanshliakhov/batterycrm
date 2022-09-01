@@ -137,6 +137,13 @@
     width: 70px;
     margin-right: 35px;
 
+    span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     &:hover {
       cursor: pointer;
 
