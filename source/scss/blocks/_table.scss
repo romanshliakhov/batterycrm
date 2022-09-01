@@ -267,6 +267,10 @@
     color: var(--black);
     font-weight: 500;
 
+    &--empty {
+      grid-template-columns: 100%;
+    }
+
     &:first-of-type {
       height: 30px;
       margin-bottom: 16px;
