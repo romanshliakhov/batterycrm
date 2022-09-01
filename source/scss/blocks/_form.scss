@@ -227,8 +227,9 @@
 
   &__btns {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     grid-gap: 14px;
+    height: 70px;
   }
 
   input[type="search"]::-webkit-search-cancel-button {
