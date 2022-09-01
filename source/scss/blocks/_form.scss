@@ -190,6 +190,11 @@
     }
   }
 
+  &__categories-filter {
+    display: flex;
+    cursor: pointer;
+  }
+
   &__categories-blur {
     position: absolute;
     right: 0;
