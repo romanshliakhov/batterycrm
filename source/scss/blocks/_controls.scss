@@ -1,11 +1,11 @@
 .controls {
   position: relative;
-  padding: 23px 24px 43px;
-  margin-top: -85px;
-  z-index: 10px;
+  padding: 0 24px 43px;
+  // margin-top: -85px;
+  z-index: 10;
 
   @media (max-width: 768px) {
-    padding: 23px 16px 40px;
+    padding: 0 16px 40px;
   }
 
   &__wrapper {

@@ -7,13 +7,13 @@
     display: flex;
     align-items: stretch;
     grid-gap: 10px;
-    padding-bottom: 105px;
+    padding-bottom: 30px;
     margin-right: -20px;
     padding-right: 20px;
 
 
     &::-webkit-scrollbar {
-      height: 1px;
+      height: 30px;
     }
 
     &::-webkit-scrollbar-thumb {
@@ -239,6 +239,9 @@
     box-shadow: 0px 4px 15px rgba(212, 212, 212, 0.64);
     border-radius: 20px;
     z-index: 10;
+    max-width: 300px;
+    width: max-content;
+
   }
 
   &__warehouse {
@@ -293,11 +296,19 @@
     &:last-child {
       margin-bottom: 0;
 
-      // &:hover {
-      //   .table__warehouse-hover {
-      //     top: 0;
-      //   }
-      // }
+      &:hover {
+        .table__warehouse-hover {
+          top: initial;
+          bottom: 100%;
+          margin-top: 0;
+          margin-bottom: 10px;
+
+          ul:before {
+            top: initial;
+            bottom: -17px;
+          }
+        }
+      }
     }
 
     &:hover {
@@ -341,7 +352,7 @@
         background-repeat: no-repeat;
         width: 13px;
         height: 14px;
-        top: -10px;
+        top: -18px;
         z-index: 10;
         left: 50%;
         transform: translateX(-50%);
