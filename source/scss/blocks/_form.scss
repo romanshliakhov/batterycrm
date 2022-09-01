@@ -205,15 +205,15 @@
     align-items: center;
     grid-gap: 6px;
     overflow-x: scroll;
-    margin-bottom: -17px;
     cursor: pointer;
-
-    @media screen and (max-width: 576px) {
-      margin-bottom: 0px;
-    }
+    margin-bottom: -5px;
 
     &::-webkit-scrollbar {
-      width: 0;
+      height: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      height: 2px;
     }
 
     &::-webkit-scrollbar-thumb {
