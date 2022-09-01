@@ -61,6 +61,10 @@
       margin-bottom: 16px;
       background-color: var(--light-green);
 
+      .table__product-title {
+        font-weight: 400;
+      }
+
       .table__product-title span {
         width: initial;
       }
